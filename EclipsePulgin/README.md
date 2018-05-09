@@ -1,19 +1,22 @@
-# Eclipse Markdown Editor Plugin
+# hojin's bitbucket
+
+
+##Daily Commit (1ÀÏ 1Ä¿¹Ô)
 
 [![Build Status](https://secure.travis-ci.org/winterstein/Eclipse-Markdown-Editor-Plugin.png)](http://travis-ci.org/winterstein/Eclipse-Markdown-Editor-Plugin)
-<a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=369" 
+<a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=369"
 title="Drag and drop into a running Eclipse toolbar area to install Markdown Text Editor">
   <img src="https://marketplace.eclipse.org/sites/all/modules/custom/marketplace/images/installbutton.png"/>
 </a>
 
-Edit .md and .txt files with syntax highlighting.   
+Edit .md and .txt files with syntax highlighting.
 Provides Outline and Preview HTML views.
 
 Please see the website for information:
 <http://www.winterwell.com/software/markdown-editor.php>
 
 Eclipse Marketplace entry:
-<http://marketplace.eclipse.org/content/markdown-text-editor>  
+<http://marketplace.eclipse.org/content/markdown-text-editor>
 or install with [Nodeclipse CLI Installer](https://github.com/Nodeclipse/nodeclipse-1/tree/master/org.nodeclipse.ui/templates) `nodeclipse install markdown`
 
 There is also a complementary GitHub Flavoured Markdown Viewer
@@ -52,7 +55,7 @@ Main Editor class `winterwell.markdown.editors.MarkdownEditor` defined as
 ### Build
 
 	mvn package
-      
+
 then check `site\target` directory for update site archive `markdown.editor.site-x.x.x.zip` and p2 repository.
 Use Help -> Install New Software... -> Add... -> Archive to istall from .zip file.
 
