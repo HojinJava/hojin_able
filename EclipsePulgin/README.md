@@ -1,7 +1,7 @@
 # hojin's bitbucket
 
 
-##Daily Commit (1ÀÏ 1Ä¿¹Ô)
+##Daily Commit (1ì¼ 1ì»¤ë°‹)
 
 [![Build Status](https://secure.travis-ci.org/winterstein/Eclipse-Markdown-Editor-Plugin.png)](http://travis-ci.org/winterstein/Eclipse-Markdown-Editor-Plugin)
 <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=369"
