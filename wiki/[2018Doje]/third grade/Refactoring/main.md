@@ -30,14 +30,14 @@
 * 디자인 패턴 (Design Patterns) 이란 ?
     * 객체 지향 프로그래밍 설계를 할 때 자주 발생하는 문제들을 피하기 위해 사용되는 패턴
     * 방식을 통해 소프트웨어 설계에서 얻은 세세한 경험들들을 기록 해 놓은 패턴(어떤 상황의 문제에 대한 해법)
-    * 일반적으로 하나의 패턴에는 네가지 요소가 반드시 들어가 있다. &#128209; [출처](https://wikidocs.net/580)
+    * 일반적으로 하나의 패턴에는 네가지 요소가 반드시 들어가 있다. [&#128209;](https://wikidocs.net/580)
         1. 패턴이름
         2. 문제 : 언제 패턴을 사용하는가를 서술하며 해결할 문제와 그 배경을 설명한다.
         3. 해법 : 설계를 구성하는 요 소들과 그 요소들 간의 관계 책임 그리고 협력 관계를 서술한다.
         4. 결과 : 디자인 패턴을 적용해서 얻는 결과와 장단점을 서술한다.
-    * 생성 패턴 (추상 객체 인스턴스화)  [&#128209;](http://seungdols.tistory.com/486)
-    * 구조 패턴 (객체 결합) &#128209; [출처](http://seungdols.tistory.com/487?category=652793)
-    * 행위 패턴(객체 간 커뮤케이션) &#128209; [출처](http://seungdols.tistory.com/490?category=652793)
+    * 생성 패턴 (추상 객체 인스턴스화) [&#128209;](http://seungdols.tistory.com/486)
+    * 구조 패턴 (객체 결합) [&#128209;](http://seungdols.tistory.com/487?category=652793)
+    * 행위 패턴(객체 간 커뮤케이션) [&#128209;](http://seungdols.tistory.com/490?category=652793)
 >>> [좋은 예제 : http://kyejusung.com/](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
 
 ### 리팩토링 기법
@@ -47,19 +47,19 @@
     * Large Class (방대한 클래스)
     * Long Parameter List  (과다한 매개변수)
     * Divergent Change (수정의 산발)
-    * Shotgun Surgery (기능의 상재) &#128209; [출처](http://http://blog.daum.net/bellosogno/10)
+    * Shotgun Surgery (기능의 상재) [&#128209;](http://http://blog.daum.net/bellosogno/10)
     * Feature Envy (잘못된 소속)
     * Feature Envy (데이터 뭉치)
-    * Primitive Obsession (강박적 기본 타입 사용) &#128209; [출처](http://blog.daum.net/bellosogno/13)
+    * Primitive Obsession (강박적 기본 타입 사용) [&#128209;](http://blog.daum.net/bellosogno/13)
     * Switch Statement
     * Parallel Inheritance Hierarchies (평행 상속 계층)
     * Lazy Class(직무유기 클래스)
     * Speculative Generality(막연한 범용 코드) : Collapse Hierarchy + Inline Class
     * 임시 필드
-    * Message Chains(메시지 체인) &#128209; [출처](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/8.%EB%A9%94%EC%8B%9C%EC%A7%80+%EC%B2%B4%EC%9D%B8+Message+Chains)
-    * Middle Man (과잉 중개 메서드) &#128209; [출처](https://wikidocs.net/593)
-    * Inappropriate Intimacy(지나친 관여) &#128209; [출처](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9.%EC%A7%80%EB%82%98%EC%B9%9C+%EA%B4%80%EC%97%AC+Inappropriate+Intimacy)
-    * Alternative Class with Different Interfaces(인터페이스가 다른 대용 클래스) &#128209; [출처](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9-1.%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80+%EB%8B%A4%EB%A5%B8+%EB%8C%80%EC%9A%A9+%ED%81%B4%EB%9E%98%EC%8A%A4+Alternative+Classes+with+Different+Interfaces)
+    * Message Chains(메시지 체인) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/8.%EB%A9%94%EC%8B%9C%EC%A7%80+%EC%B2%B4%EC%9D%B8+Message+Chains)
+    * Middle Man (과잉 중개 메서드) [&#128209;](https://wikidocs.net/593)
+    * Inappropriate Intimacy(지나친 관여) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9.%EC%A7%80%EB%82%98%EC%B9%9C+%EA%B4%80%EC%97%AC+Inappropriate+Intimacy)
+    * Alternative Class with Different Interfaces(인터페이스가 다른 대용 클래스) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9-1.%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80+%EB%8B%A4%EB%A5%B8+%EB%8C%80%EC%9A%A9+%ED%81%B4%EB%9E%98%EC%8A%A4+Alternative+Classes+with+Different+Interfaces)
     * Incomplete Library Class(미흡한 라이브러리 클래스)
     * 데이터 클래스
     * Refuged Bequest(방치된 상속물)
