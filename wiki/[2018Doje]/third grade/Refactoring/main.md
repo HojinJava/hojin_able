@@ -38,7 +38,7 @@
     * 생성 패턴 (추상 객체 인스턴스화) &#128209; [출처](http://seungdols.tistory.com/486)
     * 구조 패턴 (객체 결합) &#128209; [출처](http://seungdols.tistory.com/487?category=652793)
     * 행위 패턴(객체 간 커뮤케이션) &#128209; [출처](http://seungdols.tistory.com/490?category=652793)
-> 좋은 예   &#128209; [출처](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
+>>>> &#128209; [좋은 예](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
 
 
 
