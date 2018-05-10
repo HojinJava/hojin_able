@@ -35,7 +35,7 @@
         2. 문제 : 언제 패턴을 사용하는가를 서술하며 해결할 문제와 그 배경을 설명한다.
         3. 해법 : 설계를 구성하는 요 소들과 그 요소들 간의 관계 책임 그리고 협력 관계를 서술한다.
         4. 결과 : 디자인 패턴을 적용해서 얻는 결과와 장단점을 서술한다.
-    * 생성 패턴 (추상 객체 인스턴스화) &#128209; [출처](http://seungdols.tistory.com/486)
+    * 생성 패턴 (추상 객체 인스턴스화)  [&#128209;](http://seungdols.tistory.com/486)
     * 구조 패턴 (객체 결합) &#128209; [출처](http://seungdols.tistory.com/487?category=652793)
     * 행위 패턴(객체 간 커뮤케이션) &#128209; [출처](http://seungdols.tistory.com/490?category=652793)
 >>> [좋은 예제 : http://kyejusung.com/](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
