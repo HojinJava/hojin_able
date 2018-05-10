@@ -38,7 +38,37 @@
     * 생성 패턴 (추상 객체 인스턴스화) &#128209; [출처](http://seungdols.tistory.com/486)
     * 구조 패턴 (객체 결합) &#128209; [출처](http://seungdols.tistory.com/487?category=652793)
     * 행위 패턴(객체 간 커뮤케이션) &#128209; [출처](http://seungdols.tistory.com/490?category=652793)
->>> [좋은 예제](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
+>>> [좋은 예제 : http://kyejusung.com/](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
+
+### 리팩토링 기법
+* Code smell or 코드의 구린내 : 소프트웨어는 과학이 아니라 공학이다. 개발자나 기획자의 주관에 따라 쉽게 바뀌기 마련이기 때문에 리팩토링의 시점은 정확하게 정해져있지 않다.
+    * Duplicated Code (중복코드)
+    * Long Method(장황한 메서드)
+    * Large Class (방대한 클래스)
+    * Long Parameter List  (과다한 매개변수)
+    * Divergent Change (수정의 산발)
+    * Shotgun Surgery (기능의 상재) &#128209; [출처](http://http://blog.daum.net/bellosogno/10)
+    * Feature Envy (잘못된 소속)
+    * Feature Envy (데이터 뭉치)
+    * Primitive Obsession (강박적 기본 타입 사용) &#128209; [출처](http://blog.daum.net/bellosogno/13)
+    * Switch Statement
+    * Parallel Inheritance Hierarchies (평행 상속 계층)
+    * Lazy Class(직무유기 클래스)
+    * Speculative Generality(막연한 범용 코드) : Collapse Hierarchy + Inline Class
+    * 임시 필드
+    * Message Chains(메시지 체인) &#128209; [출처](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/8.%EB%A9%94%EC%8B%9C%EC%A7%80+%EC%B2%B4%EC%9D%B8+Message+Chains)
+    * Middle Man (과잉 중개 메서드) &#128209; [출처](https://wikidocs.net/593)
+    * Inappropriate Intimacy(지나친 관여) &#128209; [출처](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9.%EC%A7%80%EB%82%98%EC%B9%9C+%EA%B4%80%EC%97%AC+Inappropriate+Intimacy)
+    * Alternative Class with Different Interfaces(인터페이스가 다른 대용 클래스) &#128209; [출처](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9-1.%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80+%EB%8B%A4%EB%A5%B8+%EB%8C%80%EC%9A%A9+%ED%81%B4%EB%9E%98%EC%8A%A4+Alternative+Classes+with+Different+Interfaces)
+    * Incomplete Library Class(미흡한 라이브러리 클래스)
+    * 데이터 클래스
+    * Refuged Bequest(방치된 상속물)
+    * 불필요한 주석
+>>> [좋은 예제 : https://wikidocs.net/](https://wikidocs.net/593)
+
+
+
+
 
 
 
