@@ -24,9 +24,9 @@
     10. 회귀 테스트
 --------
 
-##Refactoring (리팩토링)
+# Refactoring (리팩토링)
 
-## 디자인패턴의 필요성 좋은 예   &#128209; [출처](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
+### 디자인패턴의 필요성 좋은 예   &#128209; [출처](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
 * 디자인 패턴 (Design Patterns) 이란 ?
     * 객체 지향 프로그래밍 설계를 할 때 자주 발생하는 문제들을 피하기 위해 사용되는 패턴
     * 방식을 통해 소프트웨어 설계에서 얻은 세세한 경험들들을 기록 해 놓은 패턴(어떤 상황의 문제에 대한 해법)
