@@ -60,7 +60,7 @@
     * Middle Man (과잉 중개 메서드) [&#128209;](https://wikidocs.net/593)
     * Inappropriate Intimacy(지나친 관여) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9.%EC%A7%80%EB%82%98%EC%B9%9C+%EA%B4%80%EC%97%AC+Inappropriate+Intimacy)
     * Alternative Class with Different Interfaces(인터페이스가 다른 대용 클래스) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9-1.%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80+%EB%8B%A4%EB%A5%B8+%EB%8C%80%EC%9A%A9+%ED%81%B4%EB%9E%98%EC%8A%A4+Alternative+Classes+with+Different+Interfaces)
-    * Incomplete Library Class(미흡한 라이브러리 클래스)
+    * Incomplete Library Class(미흡한 라이브러리 클래스) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/10.%EB%AF%B8%ED%9D%A1%ED%95%9C+%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC+%ED%81%B4%EB%9E%98%EC%8A%A4+Incomplete+Library+Class)
     * 데이터 클래스
     * Refuged Bequest(방치된 상속물)
     * 불필요한 주석
