@@ -23,7 +23,7 @@ public class TestClass {
 }
 ~~~
 
-##TapeEquilibrium
+## TapeEquilibrium
 ~~~java
 public class Test {
 	static public void main(String args[]){
