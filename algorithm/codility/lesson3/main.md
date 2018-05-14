@@ -30,7 +30,7 @@ public class Test {
 		int A[] = {-1,-2,-3,3,4,13,10,0};
 		System.out.println(new Test().solution(A));
 	}
-	
+
 	public int solution(int[] A) {
 		//1. 배열의 총 합을 구한다.
 		//2. A[0]~ A[p-1]까지의 합을 구한다.
@@ -39,10 +39,11 @@ public class Test {
 		int indexPSum = 0;
 		int indexNSum = 0;
 		int aLenght = A.length;
+		int min = 1001;
 		for(int i=0; i< aLenght; i++){
 			totalSum += A[i];
 		}
-		int min = totalSum - indexPSum;
+
 		for(int i=0; i< aLenght-1; i++){
 			for(int j=0; j< i+1; j++){
 				indexPSum += A[j];
