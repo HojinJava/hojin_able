@@ -11,12 +11,13 @@
     1. 애플리케이션 리팩토링
     2. UI 아키텍처 설계
 
+
 * 습득지식 (애플리케이션 리팩토링)
     1. 국제 코딩 표준
     2. 디자인 패턴
     3. 리팩토링 기법
     4. 리팩토링 적용 기법
-    5. 비기능적 품질 특성
+    5. 비기능적 품질 특성 [&#128209;](http://ryudwig.tistory.com/entry/SW-%ED%92%88%EC%A7%88-%ED%8A%B9%EC%84%B1-ISO-9126)
     6. 비기능적 품질 특성 충족 기법
     7. 코드 스멜 유형
     8. 클린 코드 특징
@@ -47,7 +48,7 @@
     * Large Class (방대한 클래스)
     * Long Parameter List  (과다한 매개변수)
     * Divergent Change (수정의 산발)
-    * Shotgun Surgery (기능의 상재) [&#128209;](http://http://blog.daum.net/bellosogno/10)
+    * Shotgun Surgery (기능의 상재) [&#128209;](http://blog.daum.net/bellosogno/10)
     * Feature Envy (잘못된 소속)
     * Feature Envy (데이터 뭉치)
     * Primitive Obsession (강박적 기본 타입 사용) [&#128209;](http://blog.daum.net/bellosogno/13)
