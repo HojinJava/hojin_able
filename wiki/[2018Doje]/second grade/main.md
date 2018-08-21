@@ -9,22 +9,24 @@
 ## 수업전 필요한 사항
 
 * Git	
-  1. 프로젝트 경로 설정
-     1. Education
-        1. Hidh School
-           1. Second Grade
-              1. 언어별로 경로 설정(ex: java, sql..)
-     2. Doje
-        1. Ideaconcert
-           1. Project
-              1. Spring
-           2. SelfStudy
-              1. Spring
-           3. H/W
-              1. Algorithm
-                 1. Codility
-                    1. Lessoon[숫자]
-                       1. 문제명
+  * 프로젝트 경로 설정
+
+    * Education
+      * Hidh School
+        * Second Grade
+          * 언어별로 경로 설정(ex: java, sql..)
+
+    * Doje
+      * Ideaconcert
+        * Project
+          * Spring
+        * SelfStudy
+          * Spring
+        * H/W
+          * Algorithm
+            * Codility
+              * Lessoon[숫자]
+                * 문제명
 
 * 개발환경 설치
   * Mysql
