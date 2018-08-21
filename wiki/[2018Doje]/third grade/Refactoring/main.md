@@ -1,71 +1,71 @@
-## NCS±â¹İÀÚ°İ ÇÊ¼ö´É·Â´ÜÀ§ (ÀÚ°İÁ¾¸ñ SW°³¹ß_L3)
-* ±³°ú¸ñ¸í : ÄÚµå ºĞ¼® ¹× UI ¼³°è
+## NCSê¸°ë°˜ìê²© í•„ìˆ˜ëŠ¥ë ¥ë‹¨ìœ„ (ìê²©ì¢…ëª© SWê°œë°œ_L3)
+* êµê³¼ëª©ëª… : ì½”ë“œ ë¶„ì„ ë° UI ì„¤ê³„
 
 
-* ±³°ú ¸ñÇ¥
-    1. ¼Ò½ºÄÚµå°¡ ¼öÇàÇÏ´Â ±â´ÉÀ» À¯ÁöÇÏ¸é¼­ ÄÚµå °¡µ¶¼º ¹× ÀáÀçÀû °áÇÔÀ» Á¦°ÅÇÏµµ·Ï ÄÚµåÀÇ ±¸Á¶¸¦ °³¼±ÇÒ ¼ö ÀÖ´Ù.
-    2. ±âÈ¹µÈ ÄÜ¼ÁÆ®¸¦ ¹ÙÅÁÀ¸·Î µğÀÚÀÎ°ú ±¸ÇöÀ» À§ÇÑ ÄÜÅÙÃ÷, Á¤º¸, ¿ÍÀÌ¾î ÇÁ·¹ÀÓ, ÅÂ½ºÅ© ÇÃ·Î¿ì¸¦ ¼³°èÇÒ ¼ö ÀÖ´Ù.
+* êµê³¼ ëª©í‘œ
+    1. ì†ŒìŠ¤ì½”ë“œê°€ ìˆ˜í–‰í•˜ëŠ” ê¸°ëŠ¥ì„ ìœ ì§€í•˜ë©´ì„œ ì½”ë“œ ê°€ë…ì„± ë° ì ì¬ì  ê²°í•¨ì„ ì œê±°í•˜ë„ë¡ ì½”ë“œì˜ êµ¬ì¡°ë¥¼ ê°œì„ í•  ìˆ˜ ìˆë‹¤.
+    2. ê¸°íšëœ ì½˜ì…‰íŠ¸ë¥¼ ë°”íƒ•ìœ¼ë¡œ ë””ìì¸ê³¼ êµ¬í˜„ì„ ìœ„í•œ ì½˜í…ì¸ , ì •ë³´, ì™€ì´ì–´ í”„ë ˆì„, íƒœìŠ¤í¬ í”Œë¡œìš°ë¥¼ ì„¤ê³„í•  ìˆ˜ ìˆë‹¤.
 
 
-* ±³°ú³»¿ë
-    1. ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ¸®ÆÑÅä¸µ
-    2. UI ¾ÆÅ°ÅØÃ³ ¼³°è
+* êµê³¼ë‚´ìš©
+    1. ì• í”Œë¦¬ì¼€ì´ì…˜ ë¦¬íŒ©í† ë§
+    2. UI ì•„í‚¤í…ì²˜ ì„¤ê³„
 
 
-* ½ÀµæÁö½Ä (¾ÖÇÃ¸®ÄÉÀÌ¼Ç ¸®ÆÑÅä¸µ)
-    1. ±¹Á¦ ÄÚµù Ç¥ÁØ
-    2. µğÀÚÀÎ ÆĞÅÏ
-    3. ¸®ÆÑÅä¸µ ±â¹ı
-    4. ¸®ÆÑÅä¸µ Àû¿ë ±â¹ı
-    5. ºñ±â´ÉÀû Ç°Áú Æ¯¼º [&#128209;](http://ryudwig.tistory.com/entry/SW-%ED%92%88%EC%A7%88-%ED%8A%B9%EC%84%B1-ISO-9126)
-    6. ºñ±â´ÉÀû Ç°Áú Æ¯¼º ÃæÁ· ±â¹ı
-    7. ÄÚµå ½º¸á À¯Çü
-    8. Å¬¸° ÄÚµå Æ¯Â¡
-    9. Å¬¸° ÄÚµåÀÇ ÇÊ¿ä¼º ¹× Æ¯Â¡
-    10. È¸±Í Å×½ºÆ®
+* ìŠµë“ì§€ì‹ (ì• í”Œë¦¬ì¼€ì´ì…˜ ë¦¬íŒ©í† ë§)
+    1. êµ­ì œ ì½”ë”© í‘œì¤€
+    2. ë””ìì¸ íŒ¨í„´
+    3. ë¦¬íŒ©í† ë§ ê¸°ë²•
+    4. ë¦¬íŒ©í† ë§ ì ìš© ê¸°ë²•
+    5. ë¹„ê¸°ëŠ¥ì  í’ˆì§ˆ íŠ¹ì„± [&#128209;](http://ryudwig.tistory.com/entry/SW-%ED%92%88%EC%A7%88-%ED%8A%B9%EC%84%B1-ISO-9126)
+    6. ë¹„ê¸°ëŠ¥ì  í’ˆì§ˆ íŠ¹ì„± ì¶©ì¡± ê¸°ë²•
+    7. ì½”ë“œ ìŠ¤ë©œ ìœ í˜•
+    8. í´ë¦° ì½”ë“œ íŠ¹ì§•
+    9. í´ë¦° ì½”ë“œì˜ í•„ìš”ì„± ë° íŠ¹ì§•
+    10. íšŒê·€ í…ŒìŠ¤íŠ¸
 --------
 
-# ¼ö¾÷ : Application Refactoring
+# ìˆ˜ì—… : Application Refactoring
 
-### µğÀÚÀÎÆĞÅÏ
-* µğÀÚÀÎ ÆĞÅÏ (Design Patterns) ÀÌ¶õ ?
-    * °´Ã¼ ÁöÇâ ÇÁ·Î±×·¡¹Ö ¼³°è¸¦ ÇÒ ¶§ ÀÚÁÖ ¹ß»ıÇÏ´Â ¹®Á¦µéÀ» ÇÇÇÏ±â À§ÇØ »ç¿ëµÇ´Â ÆĞÅÏ
-    * ¹æ½ÄÀ» ÅëÇØ ¼ÒÇÁÆ®¿ş¾î ¼³°è¿¡¼­ ¾òÀº ¼¼¼¼ÇÑ °æÇèµéµéÀ» ±â·Ï ÇØ ³õÀº ÆĞÅÏ(¾î¶² »óÈ²ÀÇ ¹®Á¦¿¡ ´ëÇÑ ÇØ¹ı)
-    * ÀÏ¹İÀûÀ¸·Î ÇÏ³ªÀÇ ÆĞÅÏ¿¡´Â ³×°¡Áö ¿ä¼Ò°¡ ¹İµå½Ã µé¾î°¡ ÀÖ´Ù. [&#128209;](https://wikidocs.net/580)
-        1. ÆĞÅÏÀÌ¸§
-        2. ¹®Á¦ : ¾ğÁ¦ ÆĞÅÏÀ» »ç¿ëÇÏ´Â°¡¸¦ ¼­¼úÇÏ¸ç ÇØ°áÇÒ ¹®Á¦¿Í ±× ¹è°æÀ» ¼³¸íÇÑ´Ù.
-        3. ÇØ¹ı : ¼³°è¸¦ ±¸¼ºÇÏ´Â ¿ä ¼Òµé°ú ±× ¿ä¼Òµé °£ÀÇ °ü°è Ã¥ÀÓ ±×¸®°í Çù·Â °ü°è¸¦ ¼­¼úÇÑ´Ù.
-        4. °á°ú : µğÀÚÀÎ ÆĞÅÏÀ» Àû¿ëÇØ¼­ ¾ò´Â °á°ú¿Í Àå´ÜÁ¡À» ¼­¼úÇÑ´Ù.
-    * »ı¼º ÆĞÅÏ (Ãß»ó °´Ã¼ ÀÎ½ºÅÏ½ºÈ­) [&#128209;](http://seungdols.tistory.com/486)
-    * ±¸Á¶ ÆĞÅÏ (°´Ã¼ °áÇÕ) [&#128209;](http://seungdols.tistory.com/487?category=652793)
-    * ÇàÀ§ ÆĞÅÏ(°´Ã¼ °£ Ä¿¹ÂÄÉÀÌ¼Ç) [&#128209;](http://seungdols.tistory.com/490?category=652793)
->>> [ÁÁÀº ¿¹Á¦ : http://kyejusung.com/](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
+### ë””ìì¸íŒ¨í„´
+* ë””ìì¸ íŒ¨í„´ (Design Patterns) ì´ë€ ?
+    * ê°ì²´ ì§€í–¥ í”„ë¡œê·¸ë˜ë° ì„¤ê³„ë¥¼ í•  ë•Œ ìì£¼ ë°œìƒí•˜ëŠ” ë¬¸ì œë“¤ì„ í”¼í•˜ê¸° ìœ„í•´ ì‚¬ìš©ë˜ëŠ” íŒ¨í„´
+    * ë°©ì‹ì„ í†µí•´ ì†Œí”„íŠ¸ì›¨ì–´ ì„¤ê³„ì—ì„œ ì–»ì€ ì„¸ì„¸í•œ ê²½í—˜ë“¤ë“¤ì„ ê¸°ë¡ í•´ ë†“ì€ íŒ¨í„´(ì–´ë–¤ ìƒí™©ì˜ ë¬¸ì œì— ëŒ€í•œ í•´ë²•)
+    * ì¼ë°˜ì ìœ¼ë¡œ í•˜ë‚˜ì˜ íŒ¨í„´ì—ëŠ” ë„¤ê°€ì§€ ìš”ì†Œê°€ ë°˜ë“œì‹œ ë“¤ì–´ê°€ ìˆë‹¤. [&#128209;](https://wikidocs.net/580)
+        1. íŒ¨í„´ì´ë¦„
+        2. ë¬¸ì œ : ì–¸ì œ íŒ¨í„´ì„ ì‚¬ìš©í•˜ëŠ”ê°€ë¥¼ ì„œìˆ í•˜ë©° í•´ê²°í•  ë¬¸ì œì™€ ê·¸ ë°°ê²½ì„ ì„¤ëª…í•œë‹¤.
+        3. í•´ë²• : ì„¤ê³„ë¥¼ êµ¬ì„±í•˜ëŠ” ìš” ì†Œë“¤ê³¼ ê·¸ ìš”ì†Œë“¤ ê°„ì˜ ê´€ê³„ ì±…ì„ ê·¸ë¦¬ê³  í˜‘ë ¥ ê´€ê³„ë¥¼ ì„œìˆ í•œë‹¤.
+        4. ê²°ê³¼ : ë””ìì¸ íŒ¨í„´ì„ ì ìš©í•´ì„œ ì–»ëŠ” ê²°ê³¼ì™€ ì¥ë‹¨ì ì„ ì„œìˆ í•œë‹¤.
+    * ìƒì„± íŒ¨í„´ (ì¶”ìƒ ê°ì²´ ì¸ìŠ¤í„´ìŠ¤í™”) [&#128209;](http://seungdols.tistory.com/486)
+    * êµ¬ì¡° íŒ¨í„´ (ê°ì²´ ê²°í•©) [&#128209;](http://seungdols.tistory.com/487?category=652793)
+    * í–‰ìœ„ íŒ¨í„´(ê°ì²´ ê°„ ì»¤ë®¤ì¼€ì´ì…˜) [&#128209;](http://seungdols.tistory.com/490?category=652793)
+>>> [ì¢‹ì€ ì˜ˆì œ : http://kyejusung.com/](http://kyejusung.com/2015/09/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-1-strategy-pattern/)
 
-### ¸®ÆÑÅä¸µ ±â¹ı
-* Code smell or ÄÚµåÀÇ ±¸¸°³» : ¼ÒÇÁÆ®¿ş¾î´Â °úÇĞÀÌ ¾Æ´Ï¶ó °øÇĞÀÌ´Ù. °³¹ßÀÚ³ª ±âÈ¹ÀÚÀÇ ÁÖ°ü¿¡ µû¶ó ½±°Ô ¹Ù²î±â ¸¶·ÃÀÌ±â ¶§¹®¿¡ ¸®ÆÑÅä¸µÀÇ ½ÃÁ¡Àº Á¤È®ÇÏ°Ô Á¤ÇØÁ®ÀÖÁö ¾Ê´Ù.
-    * Duplicated Code (Áßº¹ÄÚµå)
-    * Long Method(ÀåÈ²ÇÑ ¸Ş¼­µå)
-    * Large Class (¹æ´ëÇÑ Å¬·¡½º)
-    * Long Parameter List  (°ú´ÙÇÑ ¸Å°³º¯¼ö)
-    * Divergent Change (¼öÁ¤ÀÇ »ê¹ß)
-    * Shotgun Surgery (±â´ÉÀÇ »óÀç) [&#128209;](http://blog.daum.net/bellosogno/10)
-    * Feature Envy (Àß¸øµÈ ¼Ò¼Ó)
-    * Feature Envy (µ¥ÀÌÅÍ ¹¶Ä¡)
-    * Primitive Obsession (°­¹ÚÀû ±âº» Å¸ÀÔ »ç¿ë) [&#128209;](http://blog.daum.net/bellosogno/13)
+### ë¦¬íŒ©í† ë§ ê¸°ë²•
+* Code smell or ì½”ë“œì˜ êµ¬ë¦°ë‚´ : ì†Œí”„íŠ¸ì›¨ì–´ëŠ” ê³¼í•™ì´ ì•„ë‹ˆë¼ ê³µí•™ì´ë‹¤. ê°œë°œìë‚˜ ê¸°íšìì˜ ì£¼ê´€ì— ë”°ë¼ ì‰½ê²Œ ë°”ë€Œê¸° ë§ˆë ¨ì´ê¸° ë•Œë¬¸ì— ë¦¬íŒ©í† ë§ì˜ ì‹œì ì€ ì •í™•í•˜ê²Œ ì •í•´ì ¸ìˆì§€ ì•Šë‹¤.
+    * Duplicated Code (ì¤‘ë³µì½”ë“œ)
+    * Long Method(ì¥í™©í•œ ë©”ì„œë“œ)
+    * Large Class (ë°©ëŒ€í•œ í´ë˜ìŠ¤)
+    * Long Parameter List  (ê³¼ë‹¤í•œ ë§¤ê°œë³€ìˆ˜)
+    * Divergent Change (ìˆ˜ì •ì˜ ì‚°ë°œ)
+    * Shotgun Surgery (ê¸°ëŠ¥ì˜ ìƒì¬) [&#128209;](http://blog.daum.net/bellosogno/10)
+    * Feature Envy (ì˜ëª»ëœ ì†Œì†)
+    * Feature Envy (ë°ì´í„° ë­‰ì¹˜)
+    * Primitive Obsession (ê°•ë°•ì  ê¸°ë³¸ íƒ€ì… ì‚¬ìš©) [&#128209;](http://blog.daum.net/bellosogno/13)
     * Switch Statement
-    * Parallel Inheritance Hierarchies (ÆòÇà »ó¼Ó °èÃş)
-    * Lazy Class(Á÷¹«À¯±â Å¬·¡½º)
-    * Speculative Generality(¸·¿¬ÇÑ ¹ü¿ë ÄÚµå) : Collapse Hierarchy + Inline Class
-    * ÀÓ½Ã ÇÊµå
-    * Message Chains(¸Ş½ÃÁö Ã¼ÀÎ) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/8.%EB%A9%94%EC%8B%9C%EC%A7%80+%EC%B2%B4%EC%9D%B8+Message+Chains)
-    * Middle Man (°úÀ× Áß°³ ¸Ş¼­µå) [&#128209;](https://wikidocs.net/593)
-    * Inappropriate Intimacy(Áö³ªÄ£ °ü¿©) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9.%EC%A7%80%EB%82%98%EC%B9%9C+%EA%B4%80%EC%97%AC+Inappropriate+Intimacy)
-    * Alternative Class with Different Interfaces(ÀÎÅÍÆäÀÌ½º°¡ ´Ù¸¥ ´ë¿ë Å¬·¡½º) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9-1.%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80+%EB%8B%A4%EB%A5%B8+%EB%8C%80%EC%9A%A9+%ED%81%B4%EB%9E%98%EC%8A%A4+Alternative+Classes+with+Different+Interfaces)
-    * Incomplete Library Class(¹ÌÈíÇÑ ¶óÀÌºê·¯¸® Å¬·¡½º) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/10.%EB%AF%B8%ED%9D%A1%ED%95%9C+%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC+%ED%81%B4%EB%9E%98%EC%8A%A4+Incomplete+Library+Class)
-    * µ¥ÀÌÅÍ Å¬·¡½º
-    * Refuged Bequest(¹æÄ¡µÈ »ó¼Ó¹°)
-    * ºÒÇÊ¿äÇÑ ÁÖ¼®
->>> [ÁÁÀº ¿¹Á¦ : https://wikidocs.net/](https://wikidocs.net/593)
+    * Parallel Inheritance Hierarchies (í‰í–‰ ìƒì† ê³„ì¸µ)
+    * Lazy Class(ì§ë¬´ìœ ê¸° í´ë˜ìŠ¤)
+    * Speculative Generality(ë§‰ì—°í•œ ë²”ìš© ì½”ë“œ) : Collapse Hierarchy + Inline Class
+    * ì„ì‹œ í•„ë“œ
+    * Message Chains(ë©”ì‹œì§€ ì²´ì¸) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/8.%EB%A9%94%EC%8B%9C%EC%A7%80+%EC%B2%B4%EC%9D%B8+Message+Chains)
+    * Middle Man (ê³¼ì‰ ì¤‘ê°œ ë©”ì„œë“œ) [&#128209;](https://wikidocs.net/593)
+    * Inappropriate Intimacy(ì§€ë‚˜ì¹œ ê´€ì—¬) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9.%EC%A7%80%EB%82%98%EC%B9%9C+%EA%B4%80%EC%97%AC+Inappropriate+Intimacy)
+    * Alternative Class with Different Interfaces(ì¸í„°í˜ì´ìŠ¤ê°€ ë‹¤ë¥¸ ëŒ€ìš© í´ë˜ìŠ¤) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/9-1.%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80+%EB%8B%A4%EB%A5%B8+%EB%8C%80%EC%9A%A9+%ED%81%B4%EB%9E%98%EC%8A%A4+Alternative+Classes+with+Different+Interfaces)
+    * Incomplete Library Class(ë¯¸í¡í•œ ë¼ì´ë¸ŒëŸ¬ë¦¬ í´ë˜ìŠ¤) [&#128209;](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/10.%EB%AF%B8%ED%9D%A1%ED%95%9C+%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC+%ED%81%B4%EB%9E%98%EC%8A%A4+Incomplete+Library+Class)
+    * ë°ì´í„° í´ë˜ìŠ¤
+    * Refuged Bequest(ë°©ì¹˜ëœ ìƒì†ë¬¼)
+    * ë¶ˆí•„ìš”í•œ ì£¼ì„
+>>> [ì¢‹ì€ ì˜ˆì œ : https://wikidocs.net/](https://wikidocs.net/593)
 
 
 
