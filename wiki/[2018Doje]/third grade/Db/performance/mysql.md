@@ -50,6 +50,13 @@
           crc32(rand()*12345),
           date_add(now(), interval -crc32(rand())/5 second)
       );
+      
+      INSERT INTO test(intj, str,d)
+      SELECT
+      	crc32(rand()),
+          crc32(rand())*12345,
+          date_add(now(), interval -crc32(rand())/5 second)
+      FROM test;
       ~~~
 
 
