@@ -38,5 +38,5 @@
   * Git
   * Editor
     * EditPlus
-    * Typora
+    * Typora   
 
