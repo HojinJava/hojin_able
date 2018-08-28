@@ -14,7 +14,7 @@
 
 * 처리방식 : 기본적인 스토리이 엔진은 단일코어로만 데이터를 처리 한다(병렬 처리를 하지 않는다.) 따라서 CPU코어 개수를 늘리는 Sacle-Out보다는 단위 처리량이 좋은  CPU로 Scale-Up 하는 것이 더욱 효율 적
 
-* BNL(Block Nested Loop) [&#128209;](http://blog.naver.com/PostView.nhn?blogId=parkjy76&logNo=221069454499&categoryNo=14&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView)
+* BNL(Block Nested Loop) [&#128209;](http://blog.naver.com/PostView.nhn?blogId=parkjy76&logNo=221069454499&categoryNo=14&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView) : 조인할 튜플들을 페이징하여 메모리에 올림(조인 버퍼) 블럭단위로 처리 하기 때문에 scan 비용이 블럭 크기만큼 줄어듬
 
 * 쿼리 성능 진단
 
