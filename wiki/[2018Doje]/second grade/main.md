@@ -8,7 +8,7 @@
 
 ## 수업전 필요한 사항
 
-* Git	
+* Git
   * 프로젝트 경로 설정
 
     * Education
@@ -38,5 +38,5 @@
   * Git
   * Editor
     * EditPlus
-    * Typora   
+    * Typora
 
