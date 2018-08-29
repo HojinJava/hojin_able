@@ -67,7 +67,96 @@
       * 실행 계획에서 str를 문자열로 검색해보고, 정수형으로 검색 해보기
         * 결과를 리포트랑 이유 리포트를 작성하기
 
+* Join 이해하기
+
+  ~~~mysql
+  create table tab1(
+  tab1Pk int not null auto_increment primary key,
+  intJ int unsigned not null,
+  regdate datetime not null
+  );
+  
+  create table tab2(
+  tab2Pk int not null auto_increment primary key,
+  tab1Pk integer, 
+  intJ int unsigned not null,
+  regdate datetime not null
+  );
+  
+  create table tab3(
+  tab3Pk int not null auto_increment primary key,
+  tab2Pk integer, 
+  intJ int unsigned not null,
+  regdate datetime not null
+  );
+  
+  create table tab4(
+  tab4Pk int not null auto_increment primary key,
+  tab3Pk integer, 
+  intJ int unsigned not null,
+  regdate datetime not null
+  );
+  
+  create table tab5(
+  tab5Pk int not null auto_increment primary key,
+  tab4Pk integer, 
+  intJ int unsigned not null,
+  regdate datetime not null
+  );
+  
+  insert into tab1(intJ, regdate)
+  values(
+  	crc32(rand()),
+      date_add(now(), interval -crc32(rand())/5 second)
+  );
+  #위 sql만 15번 실행하기
+  
+  insert into tab1(intJ, regdate)
+  	SELECT crc32(rand())
+  	,date_add(now(), interval -crc32(rand())/5 second)
+  from tab1;
+  
+  
+  insert into tab2(tab1pk, intj, regdate)
+  	select tab1pk, crc32(rand()),
+      date_add(now(), interval -crc32(rand())/5 second)
+  from tab1;
+  
+  
+  insert into tab3(tab2pk, intj, regdate)
+  	select tab2pk, crc32(rand()),
+      date_add(now(), interval -crc32(rand())/5 second)
+  from tab2;
+  
+  
+  
+  insert into tab4(tab3pk, intj, regdate)
+  	select tab3pk, crc32(rand()),
+      date_add(now(), interval -crc32(rand())/5 second)
+  from tab3;
+  
+  insert into tab5(tab4pk, intj, regdate)
+  	select tab4pk, crc32(rand()),
+      date_add(now(), interval -crc32(rand())/5 second)
+  from tab4;
+  ~~~
+
+  ~~~mysql
+  explain
+  select tab1.*, tab4.*
+  from tab1 tab1
+  	INNER JOIN tab2 tab2 on tab2.tab1pk = tab1.tab1pk
+      INNER JOIN tab3 tab3 on tab3.tab2pk = tab2.tab2pk
+      LEFT JOIN tab4 tab4 on tab4.tab3pk = tab3.tab3pk
+  where (tab1.intj%10) in (1,2)
+  		and (tab2.intj%10) not in (9)
+  order by tab3.regdate, tab2.regdate desc;
+  
+  #위 쿼리 최적화 하기
+  ~~~
+
 * 용어 찾아보기
+
   * 클러스터 인덱스(Cluster Index)  [&#128209;](http://mee2ro.tistory.com/2)  : 
 
 
