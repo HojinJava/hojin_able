@@ -153,6 +153,18 @@
   order by tab3.regdate, tab2.regdate desc;
   
   #위 쿼리 최적화 하기
+  #수정된 코드 ( limit 0,20 만 추가 됨)
+  
+  explain
+  select tab1.*
+  from tab1 tab1
+  	INNER JOIN tab2 tab2 on tab2.tab1pk = tab1.tab1pk
+      INNER JOIN tab3 tab3 on tab3.tab2pk = tab2.tab2pk
+      LEFT JOIN tab4 tab4 on tab4.tab3pk = tab3.tab3pk
+  where (tab1.intj%10) in (1,2)
+  		and (tab2.intj%10) not in (9)
+  order by tab3.regdate, tab2.regdate desc
+  limit 0,20;
   ~~~
 
 * 용어 찾아보기
