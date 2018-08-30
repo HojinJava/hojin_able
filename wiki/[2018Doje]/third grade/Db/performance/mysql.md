@@ -170,8 +170,20 @@
 * 개선 코드
 
   ~~~mysql
-  
-  
+  explain
+  select sub1.*
+  from(
+  select tab1.tab1Pk as tab1pk, tab3.tab3Pk as tab3pk
+  from tab1 tab1
+  	inner join tab2 tab2 on tab2.tab1pk = tab1.tab1Pk
+      inner join tab3 tab3 on tab3.tab2pk = tab2.tab2pk
+      where (tab1.intj%10) in (1,2)
+  		and (tab2.intj%10) not in (9)
+          order by tab3.regdate, tab2.regdate desc
+  limit 0,20
+  ) sub1
+  inner join tab1 tab1 on tab1.tab1Pk = sub1.tab1Pk
+  left join tab4 tab4 on tab4.tab3Pk = sub1.tab3pk;
   ~~~
 
 
@@ -214,7 +226,6 @@
 * 개선코드
 
   ~~~mysql
-  
   
   ~~~
 
