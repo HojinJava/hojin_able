@@ -167,6 +167,57 @@
   limit 0,20;
   ~~~
 
+* 개선 코드
+
+  ~~~mysql
+  
+  
+  ~~~
+
+
+
+  ~~~mysql
+  create table code(
+  pk integer auto_increment primary key,
+  name varchar(50),
+  regdate datetime
+  );
+  
+  insert into code(name, regdate)
+  values('1', now());
+  
+  insert into code(name, regdate)
+  select crc32(rand())*123
+  	,date_add(now(), interval -crc32(rand())/5 second)
+  from code;
+  #위 코드는 여러번 실행한다.
+  
+  create table item(
+  pk integer auto_increment primary key,
+  name varchar(50),
+  codePk integer,
+  regdate datetime
+  );
+  
+  insert into item(name, codePk, regdate)
+  	select crc32(rand())*123, pk, date_add(now(), interval -crc32(rand())/5 second)
+  from code;
+  
+  explain
+  select item.name itemName, code.Name as codeName
+  from item item inner join code code on item.codePk = code.pk
+  where item.codepk = code.pk and
+  item.name ='452637069033';
+  #where에 item.name은 실제 있는 값으로 본인 데이터에 맞게 설정한다.
+  ~~~
+
+* 개선코드
+
+  ~~~mysql
+  
+  
+  ~~~
+
 * 용어 찾아보기
 
   * 클러스터 인덱스(Cluster Index)  [&#128209;](http://mee2ro.tistory.com/2)  : 
