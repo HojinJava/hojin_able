@@ -237,7 +237,6 @@
   ) sub
   	inner join code code on code.pk = sub.codepk
   where sub.name = '452637069033';
-  
     #where에 item.name은 실제 있는 값으로 본인 데이터에 맞게 설정한다.
   ~~~
 
@@ -245,7 +244,8 @@
 
   * 클러스터 인덱스(Cluster Index)  [&#128209;](http://mee2ro.tistory.com/2)  : 
 
-
+  * 데이터품질에서 도메인  [:bookmark_tabs:](http://blog.naver.com/PostView.nhn?blogId=new_magma&logNo=20038148095):
+  * B트리 :
 
 
 
