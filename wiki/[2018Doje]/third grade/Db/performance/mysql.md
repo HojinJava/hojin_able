@@ -226,7 +226,19 @@
 * 개선코드
 
   ~~~mysql
+  explain
+  select sub.*
+  from(
+  	select *
+      from item
+      WHERE ASD
+      order by regdate desc
+      limit 0,10
+  ) sub
+  	inner join code code on code.pk = sub.codepk
+  where sub.name = '452637069033';
   
+    #where에 item.name은 실제 있는 값으로 본인 데이터에 맞게 설정한다.
   ~~~
 
 * 용어 찾아보기
