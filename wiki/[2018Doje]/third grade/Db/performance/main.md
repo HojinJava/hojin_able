@@ -18,7 +18,7 @@
 	   3. 데이터 표준 관리하기
 
 
-* 습득지식 (데이터베이스 성능확보)  [:bookmark_tabs:](http://blog.naver.com/PostView.nhn?blogId=new_magma&logNo=20038148095)
+* 습득지식 (데이터베이스 성능확보)  [:bookmark_tabs:](http://www.dbguide.net/db.db?cmd=view&boardUid=146596&boardConfigUid=9&categoryUid=216&boardIdx=129&boardStep=1)
     1. 데이터베이스 SQL에 대한 지식
     2. 데이터베이스 개념데이터 모델링, 논리적, 물리적 데이터베이스 설계 전략
     3. 데이터베이스 객체 구조 분석 방법
