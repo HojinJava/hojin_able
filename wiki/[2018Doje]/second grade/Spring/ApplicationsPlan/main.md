@@ -46,7 +46,7 @@
 
             * 엑터(Actor, 행위자)를 통해 시스템이 수행하는 일의 목표
 
-                ![1536039107543](C:\Users\ICON-DEV\AppData\Local\Temp\1536039107543.png) 
+                ![1536039107543](https://user-images.githubusercontent.com/24423415/45017444-96516380-b062-11e8-80bd-f0be5778d512.png) 
 
 * 수행 순서
 
@@ -59,7 +59,7 @@
     * 전체 시스템 차원의 공통부분을 식별
     * 공통 기능 관리 프로세스를 수립
 
-  ​           ![1536035279228](C:\Users\ICON-DEV\AppData\Local\Temp\1536035279228.png) 
+​             ![1536035279228](https://user-images.githubusercontent.com/24423415/45017476-a701d980-b062-11e8-8105-e4489642619a.png) 
 
 ---
 
@@ -75,11 +75,11 @@
 
       2. 모듈화 필요성
 
-         ![1536038008271](C:\Users\ICON-DEV\AppData\Local\Temp\1536038008271.png)   
+         ![1536038008271](https://user-images.githubusercontent.com/24423415/45017498-b7b24f80-b062-11e8-99c5-2ee1be661c15.png)   
 
       3. 공통 기능 모듈화 사례
 
-         ![1536038180990](C:\Users\ICON-DEV\AppData\Local\Temp\1536038180990.png)  
+         ![1536038180990](https://user-images.githubusercontent.com/24423415/45017543-cb5db600-b062-11e8-8d44-c6a587ac7093.png)  
 
    * 응집도 :  모듈 내부 구성 요소 간에 밀접한 정도, 응집도가 높을수록 필요한 요소들로 구성, 낮을 수록 적은 요소들로 구성
 
@@ -106,7 +106,7 @@
 
    * 시퀀스 다이어그램
 
-     ![1536039058977](C:\Users\ICON-DEV\AppData\Local\Temp\1536039058977.png) 
+     ![1536039058977](https://user-images.githubusercontent.com/24423415/45017559-d44e8780-b062-11e8-8a2c-4e4acabe0835.png) 
 
 * 수행 순서
 
@@ -114,7 +114,7 @@
 
     * 공통 기능에 대한 흐름을 도식화한다
 
-      ![1536039441824](C:\Users\ICON-DEV\AppData\Local\Temp\1536039441824.png) 
+      ![1536039441824](https://user-images.githubusercontent.com/24423415/45017571-df091c80-b062-11e8-9392-ce51e3e97295.png) 
 
 
     * 공통 기능에 대한 프로그램 설계서를 작성한다.
