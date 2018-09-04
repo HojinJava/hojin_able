@@ -95,7 +95,7 @@
   tab3Pk integer, 
   intJ int unsigned not null,
   regdate datetime not null
-  );
+  ); 
   
   create table tab5(
   tab5Pk int not null auto_increment primary key,
