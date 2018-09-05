@@ -60,7 +60,7 @@
     * 전체 시스템 차원의 공통부분을 식별
     * 공통 기능 관리 프로세스를 수립
 
-             ![1536035279228](https://user-images.githubusercontent.com/24423415/45017476-a701d980-b062-11e8-8105-e4489642619a.png) 
+         ![1536035279228](https://user-images.githubusercontent.com/24423415/45017476-a701d980-b062-11e8-8105-e4489642619a.png) 
 
 ---
 
