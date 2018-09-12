@@ -1,32 +1,16 @@
 ## MaxSliceSum
-~~~java
-import java.util.Arrays;
-
-public class Test {
-
-	public static void main(String[] args) {
-//		-191, 358, -145, 41, -893, 545, -770, -560, 495, -488, 565, 568, -353,
-//		-782, 719, 727, -269, 16, 432, 98, 934, -795, 744, -966, -654, -973, -529, -588, 129, 565,
-//		42, -11, 338, 525, 190, -855, 189, -434, 272, 49, 561, -872, 898, -859,
-//		-595, -852, -591, -103, -641, -480
-//
-//		2662
-		int a[] = {2, 2};
-		int result = new Test().solution(a);
-		System.out.println(result);
-	}
-	// 0 <= P <= Q < N
-	// a[p] ~ a[q] 까지 가장 큰 합을 구하기.
-	// 음수일경우도있다.
-
-
-	//연속된 배열이 같은 부호 일 경우 하나로 합친다.
-	//맨처음이 음수일 경우는 버린다.
-	//맨처음(양수)값을 max값으로 지정 한다.
-	//다음 음수 값 + 양수 값이 +일 경우 max값을 변경 한다.
-
-	//2중 for문으로 가장 큰 max 값을 찾아본다.
-	public int solution(int[] a) {
+# Problem Link
+- [Codility-Lesson09-[MaxSliceSum](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_slice_sum/)
+ ## 접근 방법
+### 1차
+- 연속된 배열이 같은 부호 일 경우 하나로 합친다.
+- 맨처음이 음수일 경우는 버린다.
+- 맨처음(양수)값을 max값으로 지정 한다.
+- 다음 음수 값 + 양수 값이 +일 경우 max값을 변경 한다.
+- 2중 for문으로 가장 큰 max 값을 찾아본다.
+ #### 코드 (테스트케이스를 제외한)
+```java
+public int solution(int[] a) {
 		int collspanArray[] = this.collspanArray(a);
 		if(collspanArray.length==1) {
 			//모두 같은 부호
@@ -118,6 +102,10 @@ public class Test {
 		}
 		return result;
 	}
-}
-~~~
+```
+ ## 채점 결과
+- [채점결과링크](https://app.codility.com/demo/results/trainingWJBJE2-VCY/?showingAll=1)
 
+| Task Score | Correctness | Performance |
+| ---------- | ----------- | ----------- |
+| 46%        | 50%         | 40%         |
