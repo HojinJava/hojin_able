@@ -11,23 +11,69 @@
  #### 코드 (테스트케이스를 제외한)
 ```java
 public int solution(int[] a) {
-    if(a.length==1) {
-        return a[0];
-    }
+    if(a.length==1) return a[0];
+
     int collspanArray[] = this.collspanArray(a);
-    if(collspanArray.length==1) {
-        //모두 같은 부호
-        Arrays.sort(a);
-        if(a[a.length-1] > 0) {
-            return this.sumArray(a);
+
+    if(collspanArray.length==1) return this.returnValWhereLenghIsOne(a);
+
+    if(collspanArray.length==2) return this.returnValWhereLenghIsTwo(collspanArray);
+
+    collspanArray = this.deleteFirstMinusElement(collspanArray);
+    collspanArray = this.deleteLastMinusElement(collspanArray);
+
+    if(collspanArray.length==1) return collspanArray[0];
+    System.out.println(Arrays.toString(collspanArray));
+    return this.returnValWhereLenghTwoUp_2(collspanArray);
+
+}
+//음수 하나 양수 하나
+public int returnValWhereLenghIsTwo(int array[]) {
+    Arrays.sort(array);
+    return array[1];
+}
+//짝꿍끼리 더했을 때, 0보다 크면 합치면 되는거 아닌가???
+
+//음수를 만났을 때
+//		이전의 합이 더 클 경우는 더한다
+//		아닐경우 더할필요가 없다
+
+public int returnValWhereLenghTwoUp_2(int collspanArray[]) {
+    int beforeSum = 0;
+
+    int plusVal = 0;
+    int minusVal = 0;
+
+    int nowSum = 0;
+
+    int max = 0;
+    for(int i=0; i<collspanArray.length-1; i+=2) {
+        plusVal = collspanArray[i];
+        minusVal = collspanArray[i+1];
+
+        nowSum = plusVal + minusVal;
+
+        System.out.print("i::"+i+", nowSum::"+nowSum);
+        System.out.println(", max:::"+max+", beforeSum::"+beforeSum);
+        if(nowSum < 0) {
+            if(  (beforeSum + nowSum) > 0 ) {
+                max += nowSum;
+                beforeSum += nowSum;
+            }else {
+                //이전까지 데이터는 필요 없다.
+                max = 0;
+                beforeSum = 0;
+            }
+
         }else {
-            return a[0];
+            max += nowSum;
+            beforeSum += nowSum;
         }
-    }else if(collspanArray.length==2){
-        //음수 하나 양수 하나
-        Arrays.sort(collspanArray);
-        return collspanArray[1];
+
     }
+    return max;
+}
+public int returnValWhereLenghTwoUp(int collspanArray[]) {
     int tempSum = 0;
     int max = collspanArray[0];
     int tempRangeSum = 0;
@@ -43,6 +89,32 @@ public int solution(int[] a) {
         }
     }
     return max;
+}
+public int returnValWhereLenghIsOne(int array[]) {
+    Arrays.sort(array);
+    if(array[array.length-1] > 0) {
+        return this.sumArray(array);
+    }else {
+        return array[0];
+    }
+}
+public int[] deleteFirstMinusElement(int array[]) {
+
+    if(array[0] < 0) {
+        int returnArray[] = new int[array.length-1];
+        for(int i=1; i<array.length;i++) {
+            returnArray[i-1] = array[i];
+        }
+        return returnArray;
+    }
+    return array;
+}
+
+public int[] deleteLastMinusElement(int array[]) {
+    if(array[array.length-1] < 0) {
+        return Arrays.copyOf(array, array.length-1);
+    }
+    return array;
 }
 
 public int sumArray(int array[]) {
@@ -108,15 +180,45 @@ public int[] collspanArray(int[] array) {
 }
 ```
  ## 채점 결과
-- [채점결과링크](https://app.codility.com/demo/results/trainingKYRW93-5TD/?showingAll=1)
+- [채점결과링크](https://app.codility.com/demo/results/trainingG7EP8X-47U/?showingAll=1)
 
 | Task Score | Correctness | Performance |
 | ---------- | ----------- | ----------- |
-| 46%        | 50%         | 40%         |
+| 69%        | 87%         | 40%         |
 
 ## 해결 해야되는 점
 
-* 길이가 1인경우 예외처리
-* { -2, 1, -2} 인 경우 처리
-* 나머지 정확도 향상
+* 나머지 정확도 향상	
+
+  * 로직
+
+    * 선택된 양수값은 max가 될 수 있다.
+
+    * 선택된 양수값 + 다음 음수값을 더한다
+
+      * 양수 일 경우
+
+        * 현재 값 + 다음 양수가 max
+
+        * beforeSum에 값을 삽입한다.
+
+      * 음수 일 경우
+
+        * beforeSum과 "+" 연산을 한다.
+          * 결과가 음수 일 경우
+            * 버린다.
+          * 결과가 양수 일 경우
+            * beforeSum += nowSum
+
+    * beforeSum 과 max를 비교한다
+
+      * max가 더  작을 경우 max값 변경
+
+  * returnValWhereLenghTwoUp_2()
+
+    * 첫번째 선택된 양수 값이 max값이다.
+      * max값을 저장하는 배열을 생성한다.
+    * 양수 + 음수를 했을 경우, beforeSum에 저장을 한다.
+    * 
+
 * 시간 복잡도 해결
