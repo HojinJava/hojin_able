@@ -220,5 +220,5 @@ public int[] collspanArray(int[] array) {
       * max값을 저장하는 배열을 생성한다.
     * 양수 + 음수를 했을 경우, beforeSum에 저장을 한다.
     * 
-
 * 시간 복잡도 해결
+* 쉽게 해결 할 수 있는 방법이 있다고 한다. 힌트 : 뒤를 정한다.
