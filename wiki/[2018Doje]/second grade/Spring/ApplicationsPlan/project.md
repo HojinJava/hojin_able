@@ -32,3 +32,22 @@
 * 실습 내용
   * Get 방식, Post 방식 통신
   * Ajax 테스트
+
+
+
+---
+
+### 이론 설명
+
+* Spring Security 란?
+  * CSRF(Cross site request forgery) 란?
+
+* JSTL(Jsp Standard Tag Library) 이란?
+
+
+
+## 실습 
+
+* csrf post 전송
+* JSTL 사용
+
